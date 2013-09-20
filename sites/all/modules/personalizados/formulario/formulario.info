@@ -1,0 +1,4 @@
+name = Formulario
+core = 7.x
+description = Este es un modulo formulario
+package = Modulos Personalizados

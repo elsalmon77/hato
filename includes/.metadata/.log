@@ -1,0 +1,13 @@
+!SESSION 2013-09-05 14:33:19.516 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.dltk.core 4 964 2013-09-05 14:40:22.616
+!MESSAGE Cannot nest 'C:xampp/htdocs/hato/includes/.metadata/.plugins/org.eclipse.php.core/__language__/57bdaf43' inside library 'C:xampp/htdocs/hato/includes'
+
+!ENTRY org.eclipse.dltk.core 4 964 2013-09-05 14:41:25.733
+!MESSAGE Cannot nest 'C:xampp/htdocs/hato/includes/.metadata/.plugins/org.eclipse.php.core/__language__/57bdaf43' inside library 'C:xampp/htdocs/hato/includes'

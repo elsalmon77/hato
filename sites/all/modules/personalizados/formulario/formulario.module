@@ -1,0 +1,49 @@
+<?php 
+
+function formulario_menu()
+{
+  $items = array();
+  $items['formularios/form2'] = array(
+  'title' => 'fORMULARIO 1',
+  'page callback' => 'drupal_get_form',
+  'access callback' => TRUE,
+  'page arguments' => array('funcion_form1'),
+  
+  );
+  return $items;
+}
+
+function funcion_form1($form_state)
+{
+  $form['descripcion'] = array(
+  '#type' => 'item',
+  '#title' => 'Esta descripcion',
+ );
+ 
+  $form['nombre'] = array(
+  '#type' => 'textfield',
+  '#title' => 'Nombre Completo',
+  );
+  
+  $form['submit'] = array(
+  '#type' => 'submit',
+  '#value' => 'Enviar',
+  );
+  
+  return $form;
+  
+}
+
+function funcion_form1_submit($form,&$form_state)
+{
+  $nombre = $form_state['values']['nombre'];
+  
+  drupal_set_message('<h2>Yo me llamo '.$nombre.'</h2>');
+  
+  
+}
+
+
+
+
+
